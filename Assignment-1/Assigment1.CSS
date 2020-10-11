@@ -1,0 +1,120 @@
+
+body {
+   
+    background-image: url(images/laker.jpg);
+    background-size:  cover;
+    margin: 0;
+}
+nav {
+    width:110%;
+    height:70px;
+    background-color: black;
+    border-bottom-left-radius:20px;  
+    border-bottom-right-radius:20px;
+}
+
+nav p {
+    font-family: cursive;
+    font-style: fantasy;
+    color: gold;
+    font-size:  25px;
+    line-height: 15px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    float: left;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: fantasy;
+    color: gold;
+    font-size:  20px;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+     border-radius: 0px 0px 10px 10px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li a {
+     width:180px;
+}
+nav ul li ul li a {
+     padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+     background-color: grey;
+}
+p{
+    display: block;
+    font-family: fantasy;
+    color: gold;
+    font-size:  20px;
+    padding: 0px 5px;
+    text-decoration: none;
+    
+}
+label{
+    display: block;
+    font-family: fantasy;
+    color: gold;
+    font-size:  20px;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+input{
+    display: block;
+    font-family: fantasy;
+    color: Black;
+    font-size:  20px;
+    padding: 0px 5px;
+    border-bottom-left-radius:20px;  
+    border-bottom-right-radius:20px;
+    border-top-left-radius:20px;  
+    border-top-right-radius:20px;
+}
+button{
+    display: block;
+    font-family: fantasy;
+    color: gold;
+    font-size:  20px;
+    padding: 10px 5px;
+    background-color: black;
+}
+div{
+    border-color: white;
+    font-family: fantasy;
+    display: inline-block;
+    background-color: black;
+    border-bottom-left-radius:20px;  
+    border-bottom-right-radius:20px;
+    border-top-left-radius:20px;  
+    border-top-right-radius:20px;
+
+    
+}
+p{
+    color: Chartreuse;
+}
+a:hover{
+    background-color: gold;
+    color: purple;
+    margin-left: 10px;
+     
+}
